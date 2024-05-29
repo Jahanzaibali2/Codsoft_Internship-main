@@ -107,11 +107,11 @@ margin-bottom: 100px;
 }
 
 .images:hover .shape{
-  bottom: 40px;
+  bottom: 50px;
 }
 
 .images:hover .me{
-  left: 45%;
+  left: 60%;
 }
 
 
@@ -278,8 +278,9 @@ h5{
 .flip-card {
   background-color: transparent;
   width: 190px;
-  height: 254px;
+  height: 300px;
   perspective: 1000px;
+  padding: 30px;
   font-family: sans-serif;
 }
 
@@ -295,7 +296,7 @@ h5{
   width: 130%;
   height: 130%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.5s;
   transform-style: preserve-3d;
 }
 
@@ -319,13 +320,13 @@ h5{
 
 .flip-card-front {
   background: linear-gradient(120deg, rgb(	40	70	64) 60%, rgb(90, 156, 143) 88%,
-  rgb(70, 76, 131) 40%, rgb(69, 105, 98) 48%);
+  rgb(70, 76, 131) 40%, rgb(71, 107, 100) 48%);
   color: rgb(255, 255, 255);
 }
 
 .flip-card-back {
-  background: linear-gradient(120deg, rgb(	40	70	64) 60%, rgb(90, 156, 143) 88%,
-  rgb(70, 76, 131) 40%, rgb(69, 105, 98) 48%);
+  background: linear-gradient(120deg, rgb(61, 107, 98) 60%, rgb(8, 41, 35) 88%,
+  rgb(70, 76, 131) 40%, rgb(1, 46, 37) 48%);
   color: rgb(255, 255, 255);
   transform: rotateY(180deg);
 }
